@@ -1,0 +1,187 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Financing</title>
+<link href="css/SpryTabbedPanels.css" rel="stylesheet" type="text/css" />
+<script src="js/SpryTabbedPanels.js" type="text/javascript"></script>
+<script src="js/financing.js" type="text/javascript"></script>
+<link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link rel="icon" href="./images/brands/autologo.png">
+<link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+<link rel="stylesheet" href="./assets/css/main.css">
+
+</head>
+<body>
+	<header id="header" class="header fixed-top">
+
+		<div class="branding d-flex align-items-cente">
+	
+		  <div class="container position-relative d-flex align-items-center justify-content-between">
+			<a href="index.html" class="logo ">
+			  <!-- Uncomment the line below if you also wish to use an image logo -->
+			  <img src="./images/brands/autologo.png" >
+		   
+			</a>
+	
+			<nav id="navmenu" class="navmenu">
+			  <ul>
+				<li><a href="./index.html" class="active">Home<br></a></li>
+				<li><a href="#about">About us</a></li>
+				<li><a href="./brands.html">Brands</a></li>
+				<li class="dropdown"><a href="#"><span>Services</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+				  <ul>
+					<li><a href="./financing.html">Auto Financing</a></li>
+					</li>
+					<li><a href="compare-cars.html">Compare Cars</a></li>
+					<li><a href="warranty-schemes.html">Warranty Schemes</a></li>
+					<li><a href="sitemap.html">SiteMap</a></li>
+				  </ul>
+				</li>
+				<li><a href="contact-us.html">Contact Us</a></li>
+			  </ul>
+			  <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+			</nav>
+	
+		  </div>
+	
+		</div>
+	
+	  </header>
+			<h1 class="text-center" style="padding-top: 100px;">Financing</h1>
+			<p class="text-center" > You may be eligible for a lease or car financing when you purchase a new car. Just fill out the information below and a dealer or financial instituion will contact you with your options. </p>
+			<form name="finance">
+			<table width="100%" border="0" align="center" cellpadding="5" cellspacing="5" id="related">
+			<tr>
+			  <td><h3 class="related">Select Your Car</h3></td>
+			  <td><select name="cars" onChange="getOptionValue()">
+                <option selected="selected">Select Your Brand</option>
+                <optgroup label="BMW">
+                <option value="128i Coupe">128i Coupe</option>
+                <option value="328i Sedan">328i Sedan</option>
+                <option value="X6 xDrive50i">X6 xDrive50i</option>
+                </optgroup>
+                <optgroup label="Honda">
+                <option value="CIVIC">CIVIC</option>
+                <option value="City">City</option>
+                <option value="CR-V">CR-V</option>
+                </optgroup>
+                <optgroup label="Mazda">
+                <option value="CX7">CX7</option>
+                <option value="RX8">RX8</option>
+                <option value="Tribute">Tribute</option>
+                </optgroup>
+                <optgroup label="Nissan">
+                <option value="Maxima">Maxima</option>
+                <option value="Sentra">Sentra</option>
+                <option value="Versa">Versa</option>
+                </optgroup>
+                <optgroup label="Suzuki">
+                <option value="Cultus">Cultus</option>
+                <option value="Liana">Liana</option>
+                <option value="Swift">Swift</option>
+                </optgroup>
+                <optgroup label="Toyota">
+                <option value="Camry">Camry</option>
+                <option value="Carolla">Corolla</option>
+                <option value="Land Cruiser">Land Cruiser</option>
+                </optgroup>
+              </select></td>
+			  <td align="right"><h3>Price ($)</h3></td>
+			  <td><input name="price" type="text" readonly="true" class="txt" /></td>
+			</tr>
+			<tr>
+			  <td><strong class="related">Term (months)</strong></td>
+			  <td><input name="months1" type="text" value="12" readonly="true" class="txt" /></td>
+			  <td><input name="months2" type="text" value="24" readonly="true" class="txt" /></td>
+			  <td><input name="months3" type="text" value="36" readonly="true" class="txt" /></td>
+			</tr>
+			<tr>
+			  <td><strong class="related">Down Payment ($)</strong></td>
+			  <td><input name="payment1" type="text" readonly="true" class="txt" /></td>
+			  <td><input name="payment2" type="text" readonly="true" class="txt" /></td>
+			  <td><input name="payment3" type="text" readonly="true" class="txt" /></td>
+			</tr>                     
+			<tr>
+			  <td><strong class="related">Monthly Payments ($)</strong></td>
+			  <td><input name="installment1" type="text" readonly="true" class="txt" /></td>
+			  <td><input name="installment2" type="text" readonly="true" class="txt" /></td>
+			  <td><input name="installment3" type="text" readonly="true" class="txt" /></td>
+			</tr>
+			<tr>
+			  <td>&nbsp;</td>
+			  <td colspan="3" align="right">
+              <p><strong class="related">You can pay us by the following methods:&nbsp;</strong></p>
+              <img src="images/creditcrd.png" alt="Payment Methods" /></td>
+			  </tr>
+			</table>
+		  </form>
+          
+	  	</div>
+		<div id="content-bottom"></div>
+	  </div>
+	
+<footer id="footer" class="footer accent-background">
+
+	<div class="container footer-top">
+	  <div class="row gy-4">
+		<div class="col-lg-5 col-md-12 footer-about">
+		  <a href="index.html" class="logo d-flex align-items-center">
+			<span class="sitename">AutoVerse</span>
+		  </a>
+		  <p>Your trusted destination for easy car buying. Explore top brands, compare models, and find the perfect financing and warranty options tailored to your needs. Drive with confidence.
+  
+		  </p>
+		  <div class="social-links d-flex mt-4">
+			<a href=""><i class="bi bi-twitter-x"></i></a>
+			<a href=""><i class="bi bi-facebook"></i></a>
+			<a href=""><i class="bi bi-instagram"></i></a>
+			<a href=""><i class="bi bi-linkedin"></i></a>
+		  </div>
+		</div>
+  
+		<div class="col-lg-2 col-6 footer-links">
+		  <h4>Useful Links</h4>
+		  <ul>
+			<li><a href="./index.html">Home</a></li>
+			<li><a href="#about">About us</a></li>
+			<li><a href="./contact-us.html">Contact Us</a></li>
+			<li><a href="#">Terms of service</a></li>
+			<li><a href="#">Privacy policy</a></li>
+		  </ul>
+		</div>
+  
+		<div class="col-lg-2 col-6 footer-links">
+		  <h4>Our Services</h4>
+		  <ul>
+			<li><a href="./financing.html">Auto Financing</a></li>
+			<li><a href="./compare-cars.html">Compare Cars</a></li>
+			<li><a href="./warranty-schemes.html">Warranty Schemes</a></li>
+			<li><a href="./brands.html">Brands</a></li>
+		  </ul>
+		</div>
+  
+		<div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+		  
+		  <p>Pakistan</p>
+		  <p class="mt-4"><strong>Phone:</strong> <span>021 2023 4747</span></p>
+		  <p><strong>Email:</strong> <span> support@autoverse.com</span></p>
+		</div>
+  
+	  </div>
+	</div>
+  
+	<div class="container copyright text-center mt-4">
+	  <p>© <span>Copyright</span> <strong class="px-1 sitename"> 2024 AutoVerse</strong> <span>All Rights Reserved</span></p>
+	  <div class="credits">
+		<!-- All the links in the footer should remain intact. -->
+		<!-- You can delete the links only if you've purchased the pro version. -->
+		<!-- Licensing information: https://bootstrapmade.com/license/ -->
+		<!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+		
+	  </div>
+	</div>
+  
+  </footer>
+</body>
+</html>
