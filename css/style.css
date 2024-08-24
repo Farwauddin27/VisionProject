@@ -1,0 +1,395 @@
+/* 
+Site Name: Auto World.com
+Documnet Type: CSS Style Sheet
+Coded By Farrukh Basit Khan
+*/
+
+body {
+	background-color:#FFFFFF;
+	font-family:'Verdana', Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#333333;
+	margin:0px;
+	padding:0px;
+	}
+
+/*** Main Wrapper ***/
+#main-wrapper {
+	width:1400px;
+	margin:10px auto;
+	padding:0px;
+	}
+
+/*** Header ***/
+#header {
+	margin:0px 0px 10px 0px;
+	padding:0px;
+	}
+
+/*** Logo ***/
+#logo {
+	width:275px;
+	float:left;
+	margin:0px;
+	padding:0px;
+	}
+
+/*** Call Box ***/
+#call-box {
+	background-image:url(../images/call-box.jpg);
+	background-repeat:no-repeat;
+	background-position:right center;
+	width:290px;
+	height:90px;	
+	margin:0px;
+	padding:0px 0px 0px 0px;
+	float:right;
+	}
+
+#call-box #call-text{
+	width:220px;
+	color:#707070;
+	text-align:center;
+	font-size:28px;
+	margin:10px 0px 0px 0px;
+	padding:0px;
+	}
+
+/*** Site Navigation Menu ***/
+#menu {
+	background-image:url(../images/menu-bg.jpg);
+	background-repeat:no-repeat;
+	height:43px;
+	margin:0px;
+	}
+
+#menu ul{
+	text-align:center;
+	list-style:none;
+	margin:0px;
+	padding:0px;
+	line-height:43px;
+	}
+	
+#menu li{
+	display:inline;
+	font-size:18px;
+	color:#707070;
+	padding:0px;
+	margin:0px;
+	}
+
+#menu li a{
+	color:#4e4e4e;
+	text-decoration:none;
+	padding:0px 10px;
+	margin:0px;
+	}
+
+#menu li a:hover{
+	background-color:#990000; 
+	color:#ffffff;
+	text-decoration:none;
+	padding:10px 10px 10px 10px;
+	margin:0px;
+	}
+
+/*** Inner Wrapper ***/
+#inner-wrapper {
+	margin:0px auto;
+	padding:0px;
+	}
+
+/*** Featured Gallery ***/
+#featured-gallery {
+	background-image:url(../images/gallery-bg.jpg);
+	background-repeat:no-repeat;	
+	width:665px;
+	height:290px;
+	float:left;
+	margin:0px 9px 0px 0px;
+	padding:5px;
+	}
+
+/*** Site Search Box ***/
+#search-box {
+	background-image:url(../images/search-bg.jpg);
+	background-repeat:no-repeat;
+	width:195px;
+	height:290px;
+	float:left;
+	margin:0px;
+	padding:5px 10px;
+	}
+	
+#search-box h1 {
+	color:#990000;
+	font-size:24px;
+	font-weight:normal;
+	margin:0px 0px 5px 0px;
+	}
+
+#search-box h2 {
+	color:#000000;
+	font-size:16px;
+	font-weight:normal;
+	margin:5px 0px 5px 0px;
+	}
+
+#search-box form {
+	margin:0px;
+	padding:0px;
+	}
+#search-box select {
+	border:solid 1px #000000;
+	width:195px;
+	margin:0px;
+	font-size:14px;
+	}
+
+#search-box select optgroup {
+	color:#000000;
+	font-style:normal;
+	}
+
+#search-box .search-btn {
+	background-image:url(../images/search-btn.png);
+	background-repeat:no-repeat;
+	background-color:#dddddd;
+	border:none;
+	width:75px;
+	height:31px;
+	margin:5px 0px;
+	float:right;
+	}
+
+#big-btns {
+	width:196px;
+	margin:5px auto 0px auto;
+	padding:0px;
+	}
+
+/*** Content Box ***/
+#content-box {
+	background-image:url(../images/content-bg.jpg);
+	width:675px;
+	float:left;
+	margin:0px 9px 0px 0px;
+	}
+
+#content-top {
+	background-image:url(../images/content-top.jpg);
+	background-repeat:no-repeat;
+	width:665px;
+	padding:5px;
+	}
+
+#content-box h1 {
+	font-size:24px;
+	color:#990000;
+	margin:0px;
+	padding:5px 0px;
+	}
+
+#content-box h2 {
+	font-size:18px;
+	color:#990000;
+	margin:0px;
+	padding:5px 0px;
+	}
+
+#content-box h3 {
+	font-size:16px;
+	color:#990000;
+	margin:0px;
+	padding:0px;
+	}
+
+#content-box h4 {
+	font-size:14px;
+	text-align:center;
+	color:#333333;
+	margin:0px;
+	padding:0px;
+	}
+
+#content-box h5 {
+	font-size:22px;
+	color:#ffffff;
+	text-align:center;
+	margin:0px;
+	padding:0px 0px;
+	}
+
+#content-box p {
+	margin:0px;
+	padding:5px 0px;
+	}
+
+#content-box table#brands {
+	border-top:solid 0.1em #868686;
+	border-left:solid 0.1em #868686;
+	margin:5px auto 0px auto;
+	}
+
+#content-box table#brands tr td{
+	background-color:#eee;
+	border-right:solid 0.1em #868686;
+	border-bottom:solid 0.1em #868686;
+	}
+
+#content-box table#brands tr td:hover{
+	background-color:#FFFFCC;
+	border-right:solid 0.1em #868686;
+	border-bottom:solid 0.1em #868686;
+	}
+
+#content-box .title-bg {
+	background-image:url(../images/title-bg.jpg);
+	background-repeat:repeat-x;
+	}
+
+#content-bottom {
+	background-image:url(../images/content-bottom.jpg);
+	background-repeat:no-repeat;
+	height:5px;
+	}
+
+#related {
+	border:solid 1px #999;
+	background-color:#EEEEEE;
+	}
+
+/*** Sidebar ***/
+#sidebar {
+	width:215px;
+	height:300px;
+	float:left;
+	}
+
+#side-box {
+	background-image:url(../images/side-box-bg.jpg);
+	background-repeat:repeat-y;
+	width:215px;
+	float:left;
+	margin:5px 0px 0px 0px;
+	}
+
+#side-top {
+	background-image:url(../images/side-box-top.jpg);
+	background-repeat:no-repeat;
+	width:205px;
+	padding:5px;
+	}
+#side-bottom {
+	background-image:url(../images/side-box-botrom.jpg);
+	background-repeat:no-repeat;
+	width:215px;
+	height:5px;
+	}
+
+/*** Brands Box ***/
+#brands-box {
+	background-image:url(../images/brands-box.jpg);
+	background-repeat:no-repeat;
+	width:900px;
+	height:90px;
+	margin:10px auto 0px auto;
+	padding:5px 0px;
+	}
+	
+/*** Bottom Boxes ***/
+#boxes {
+	margin:10px auto;
+	}
+
+.box {
+	background-image:url(../images/bottom-box-bg.jpg);
+	background-repeat:no-repeat;
+	width:280px;
+	height:240px;
+	float:left;
+	margin:0px 15px 0px 0px;
+	padding:5px;
+	}
+
+.box h1 {
+	color:#990000;
+	font-size:24px;
+	font-weight:normal;
+	margin:0px 0px 5px 0px;
+	}
+
+.box p {
+	margin:0px;
+	padding:4px 0px;
+	text-align:justify;
+	}
+
+.box-thumb {
+	width:270px;
+	margin:0px auto;
+	}
+
+.read-btn {
+	float:right;
+	}
+
+/*** Footer ***/
+#footer {
+	background-image:url(../images/footer-top.jpg);
+	background-repeat:no-repeat;
+	background-position:top center;
+	margin:0px;
+	padding:5px 0px;
+	}
+
+#footer p {
+	text-align:center;
+	margin:0px;
+	padding:5px 0px;
+	}
+/*** Miscellaneous  Style ***/
+.clear {
+	clear:both;
+	}
+
+.nomargin {
+	margin:0px;
+	}
+
+.topmargin {
+	margin-top:5px;
+	}
+
+.botommargin {
+	margin-bottom:5px;
+	}
+	
+a {
+	color:#990000;
+	text-decoration:none;
+	}
+
+a:hover {
+	color:#CC0000;
+	text-decoration:none;
+	}
+
+a img {
+	border:none;
+	}
+
+
+.txt {
+	border:solid 1px #000000;
+	}
+
+select {
+	border:solid 1px #000000;
+	}
+
+select optgroup {
+	color:#000000;
+	font-style:normal;
+	}
